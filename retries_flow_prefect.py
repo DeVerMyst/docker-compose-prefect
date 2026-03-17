@@ -25,7 +25,7 @@ def appeler_api(a, b):
         return res
 
 
-@flow(name="Demo Concurrence avec UV", log_prints=True)
+@flow(name="Demo Concurrence", log_prints=True)
 def pipeline_calcul():
     print("Envoi de 10 tâches à l'API (bridage à 2 via tag)...")
 

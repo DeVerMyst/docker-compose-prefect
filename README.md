@@ -30,12 +30,12 @@ prefect config set PREFECT_API_URL="http://127.0.0.1:4200/api"
 prefect concurrency-limit create calcul_max 2
 ```
 
-## Exécuter le Workflow
+## Exécuter le Workflow - Retries
 
 Lance le script Python qui va envoyer 10 requêtes d'un coup :
 
 ```bash
-python flow_prefect.py
+python retries_flow_prefect.py
 ```
 
 
@@ -43,3 +43,15 @@ python flow_prefect.py
 
 
 --- 
+
+## Exécuter le Workflow - scheduling
+
+Lance le script Python qui va envoyer 1 requêtes toutes les 20 secondes :
+
+```bash
+python scheduling_flow_prefect.py
+```
+
+--- 
+# Déploiement
+
