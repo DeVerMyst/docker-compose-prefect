@@ -4,8 +4,6 @@ Ce projet démontre comment limiter la charge sur une infrastructure (API) en ut
 
 ## Lancer l'API (Infrastructure)
 
-Dans le dossier contenant le `Dockerfile` et le `docker-compose.yml` :
-
 ```bash
 docker compose up -d
 ```
